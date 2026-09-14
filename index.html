@@ -6,6 +6,24 @@
     <title>Document</title>
     <!-- Bootstrap foi adicionado via CDN -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+<!--
+O CSS personalizado foi colocado depois do link do Bootstrap porque,
+quando duas regras possuem prioridade semelhante, a regra que aparece
+por último tem prioridade. Dessa forma, apenas o botão com o id
+botao-principal teve sua cor sobrescrita, sem alterar os outros
+elementos da mesma cor na página.
+-->
+<style>
+    #botao-principal {
+        background-color: #8b5a2b;
+        border-color: #000000;
+    }
+
+    #botao-principal:hover {
+        background-color: #6f451f;
+        border-color: #000000;
+    }
+</style>
 </head>
 <body>
     <!-- NAVBAR -->
