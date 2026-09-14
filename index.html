@@ -84,39 +84,113 @@ A classe col-md-4 foi usada porque os 3 blocos ocupam 4 das 12 colunas
 cada um a partir de 768px. Abaixo dessa largura, eles ficam empilhados.
 -->
 
-<!-- DESTAQUES -->
-<section class="py-5">
+<!-- CARDS -->
+<section class="container py-5" id="cardapio">
 
-    <div class="container">
+    <h2 class="text-center mb-5">
+        Nossos Destaques
+    </h2>
 
-        <div class="row">
+    <div class="row g-4">
 
-            <div class="col-md-4">
-                <div>
-                    <h2>Cafés Especiais</h2>
-                    <p>Cafés preparados com grãos selecionados e muito sabor.</p>
+
+        <!-- CARD 1 -->
+        <div class="col-md-4">
+
+            <div class="card h-100">
+
+                <img
+                    src="https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?auto=format&fit=crop&w=800&q=80"
+                    class="card-img-top"
+                    alt="Café Espresso">
+
+                <div class="card-body text-center">
+
+                    <h5 class="card-title">
+                        Expresso
+                    </h5>
+
+                    <p class="card-text">
+                        Café intenso e aromático para quem ama sabores marcantes!
+                    </p>
+
+                    <button class="btn btn-dark">
+                        Ver mais
+                    </button>
+
                 </div>
-            </div>
 
-            <div class="col-md-4">
-                <div>
-                    <h2>Doces</h2>
-                    <p>Doces deliciosos para acompanhar o seu café.</p>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div>
-                    <h2>Ambiente Aconchegante</h2>
-                    <p>Um espaço perfeito para relaxar e aproveitar bons momentos.</p>
-                </div>
             </div>
 
         </div>
 
+
+        <!-- CARD 2 -->
+        <div class="col-md-4">
+
+            <div class="card h-100">
+
+                <img
+                    src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?auto=format&fit=crop&w=800&q=80"
+                    class="card-img-top"
+                    alt="Cappuccino">
+
+                <div class="card-body text-center">
+
+                    <h5 class="card-title">
+                        Cappuccino
+                    </h5>
+
+                    <p class="card-text">
+                        Uma combinação deliciosa de café, leite cremoso e muito sabor.
+                    </p>
+
+                    <button class="btn btn-dark">
+                        Ver mais
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- CARD 3 -->
+        <div class="col-md-4">
+
+            <div class="card h-100">
+
+                <img
+                    src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80"
+                    class="card-img-top"
+                    alt="Café com doce">
+
+                <div class="card-body text-center">
+
+                    <h5 class="card-title">
+                        Café + Doce
+                    </h5>
+
+                    <p class="card-text">
+                        A combinação perfeita entre um café especial e um doce delicioso.
+                    </p>
+
+                    <button class="btn btn-dark">
+                        Ver mais
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
     </div>
 
 </section>
+
 
     <!-- JavaScript do Bootstrap via CDN -->
 <script
