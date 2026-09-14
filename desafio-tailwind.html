@@ -1,0 +1,38 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Tailwind</title>
+
+    <!-- Tailwind Play CDN -->
+   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+
+    <div class="text-center mt-5">
+
+        <!--
+        No Bootstrap, o botão original usava poucas classes:
+        btn, btn-dark, btn-lg e mt-3.
+
+        No Tailwind, foram necessárias mais classes utilitárias
+        para definir diretamente cor, texto, espaçamento e bordas.
+
+        O Tailwind é mais fácil de customizar depois porque cada
+        propriedade visual pode ser alterada diretamente pelas
+        classes utilitárias no HTML.
+        -->
+
+        <a href="#"
+            class="bg-[#8b5a2b] text-white px-4 py-2 rounded-lg mt-3 inline-block hover:bg-[#6f451f]">
+            Ver Cardápio
+        </a>
+
+    </div>
+
+</body>
+</html>
+```
